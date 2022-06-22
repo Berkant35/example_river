@@ -1,0 +1,45 @@
+name: firebase_deneme
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #ui_helpers
+  sizer: ^2.0.15
+  fluttertoast: ^8.0.9
+
+  #state managment
+  flutter_riverpod: ^1.0.3
+  state_notifier: ^0.7.2+1
+
+  #Model Works
+  json_annotation: ^4.5.0
+  json_serializable: ^6.2.0
+
+  #Firebase Database
+  firebase_auth: ^3.3.20
+  firebase_core: ^1.18.0
+  cloud_firestore: ^3.1.18
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.1.11
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
